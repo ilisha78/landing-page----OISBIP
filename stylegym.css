@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    margin: 0px;
+    padding:0px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 6px 10px;
+    padding: 20px 6px;
+    float: center;
+}
+a:hover{
+    background-color: green;
+    border-radius: 50%;
+}
+.links{
+    float: right;
+    margin-right: 0%;
+    margin-left: 62%;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    margin: 0px;
+}
+.container{
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcayysihdRf_j3UE8iZ7ctbDawsTbkeOY3YQ&usqp=CAU); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 135px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+button{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-family: cursive;
+    border: 1px solid white;
+}
+.tutorial{
+    background-color: black;
+    float: right;
+    color: white;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: cursive;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.workout{
+    color: rgb(40, 150, 40);
+}
+
+
+
+.boxes{
+    display: flex;
+}
+#abt, #feat, #expl{
+    text-align: center;
+    align-items: center;
+    font-family: 'Agbalumo', cursive;
+    display: none;
+}
+#abt p{
+    color: rgb(35, 105, 6);
+/* font-family: 'Caveat', cursive; */
+    font-size: 15px;
+    word-spacing: 6px;
+    background-color: rgba(219, 206, 206, 0.97);
+    width: 55%;
+    padding: 20px;
+    position: relative;
+    margin-top: -25%;
+    margin-left: 72% ;
+    border-radius: 40px;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+#feat p{
+    color: rgb(105, 42, 6);
+/* font-family: 'Caveat', cursive; */
+    font-size: 15px;
+    word-spacing: 6px;
+    background-color: rgba(219, 206, 206, 0.97);
+    width: 55%;
+    padding: 20px;
+    position: relative;
+    margin-top: -29%;
+    margin-left: 72% ;
+    border-radius: 40px;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#expl p{
+    color: rgb(30, 2, 96);
+/* font-family: 'Caveat', cursive; */
+    font-size: 15px;
+    word-spacing: 6px;
+    background-color: rgba(219, 206, 206, 0.97);
+    width: 55%;
+    padding: 20px;
+    position: relative;
+    margin-top: -31%;
+    margin-left: 72% ;
+    border-radius: 40px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pop-up{
+    background-color: white;
+    width: 25%;
+    background-color: rgba(153, 139, 139, 0.7);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0px 10px 55px 10px;
+    float: right;
+    text-align: center;
+    margin-top: -43%;
+    margin-left: 75% ;
+    display: none;
+}
+.header{
+    text-align: center;
+    font-size: 85px;
+    margin: 1rem;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid rgb(157, 157, 246);
+    border-radius: 20px;
+    background-color: rgb(229, 243, 248);
+    color: #181885;
+    transition: box-shadow 0.2s ease-out, border 0.2s ease-out;
+}
+.input:focus{
+    box-shadow: 2px;
+    border: 2px solid blue;
+}
+.social-icons i{
+    border: 2px solid rgb(123, 123, 216);
+    background-color: white;
+    padding: 0.7rem;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #181885;
+}
+.social-icons{
+    padding:0 20%;
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.social-icons i:hover{
+    background-color: #ccccfc;
+}
+.btn{
+    background-color:  rgb(22, 22, 181);
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0px;
+    border-radius: 20px;
+    border-radius: 2px solid blue;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+.btn:hover{
+    box-shadow: 2px;
+    background-color: rgb(77, 77, 239);
+}
+.forgot{
+    margin: 20px;
+}
+.forget{
+    text-decoration: none;
+    color: #181885;
+}
+.forgot a{
+    float: left;
+}
+.rem{
+    float: right;
+    color: #181885;
+}
+.forget a:hover{
+    color: rgb(4, 4, 43);
+}
+.form-field{
+    margin-top: 10px;
+}
